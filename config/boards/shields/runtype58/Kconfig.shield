@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_RUNTYPE58_LEFT
+    def_bool $(shields_list_contains,runtype58_left)
+
+config SHIELD_RUNTYPE58_RIGHT
+    def_bool $(shields_list_contains,runtype58_right)

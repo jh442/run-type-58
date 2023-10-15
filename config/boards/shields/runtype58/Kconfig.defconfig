@@ -1,0 +1,17 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_RUNTYPE58_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "RunType58"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_RUNTYPE58_LEFT || SHIELD_RUNTYPE58_RIGHT
+config ZMK_SPLIT
+    default y
+endif
