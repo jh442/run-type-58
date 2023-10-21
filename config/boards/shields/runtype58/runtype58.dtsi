@@ -9,14 +9,15 @@
 / {
 
 	chosen {
-		zmk,kscan = &kscan0;
+		zmk,kscan = &default_kscan;
 		zmk,matrix_transform = &default_transform;
 	};
 
-    default_transform: keymap_transform_0 {
+    default_transform: keymap_transform {
         compatible = "zmk,matrix-transform";
-        columns = <14>;
         rows = <5>;
+        columns = <14>;
+ 
 
     // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
     // | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |                 | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 |
