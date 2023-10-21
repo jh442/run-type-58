@@ -16,7 +16,7 @@
     default_transform: keymap_transform {
         compatible = "zmk,matrix-transform";
         rows = <5>;
-        columns = <14>;
+        columns = <16>;
  
 
     // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
