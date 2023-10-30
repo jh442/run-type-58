@@ -42,8 +42,8 @@
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans          &trans    &trans    &trans
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
 &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp C_VOLUME_UP
-&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &LBRC    &RBRC     &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp C_VOLUME_DOWN
-                                              &trans            &trans       &trans    &trans   &C_PP    &trans    &trans    &trans
+&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &kp LBRC    &kp RBRC     &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp C_VOLUME_DOWN
+                                              &trans            &trans       &trans    &trans      &kp C_PP    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -58,10 +58,10 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &PIPE
-&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &C_NEXT
-&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp LEFT  &kp UP  &kp UP   &kp RIGHT &PG_UP
+&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &kp C_NEXT
+&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp LEFT  &kp UP  &kp UP   &kp RIGHT &kp PG_UP
 &kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS &kp LEFT &kp DOWN &kp RIGHT &kp RBKT  &kp PAGE_DOWN
-                        &trans  &trans  &trans    &trans   &C_PP    &trans      &trans    &trans
+                        &trans  &trans  &trans    &trans   &kp C_PP    &trans      &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
