@@ -62,7 +62,7 @@
 &kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp LEFT  &kp UP    &kp UP    &kp RIGHT &kp PG_UP
 &kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS &kp LEFT  &kp DOWN  &kp RIGHT &kp RBKT  &kp PAGE_DOWN
                         &trans  &trans  &trans    &trans   &kp C_PP  &trans      &trans    &trans
-66666666666            >;
+            >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
