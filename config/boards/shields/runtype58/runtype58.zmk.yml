@@ -1,0 +1,12 @@
+file_format: "1"
+id: runtype58
+name: Runtype58
+type: shield
+url: https://github.com/jh442/run-type-58/
+requires: [pro_micro]
+features:
+  - keys
+  - display
+siblings:
+  - runtype58_left
+  - runtype58_right
