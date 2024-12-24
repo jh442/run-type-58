@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include "french.h"
 
-{
+/ {
     keymap {
         compatible = "zmk,keymap";
 
