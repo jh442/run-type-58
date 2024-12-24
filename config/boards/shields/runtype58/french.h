@@ -1,7 +1,7 @@
 #ifndef CUSTOM_KEYCODES_H
 #define CUSTOM_KEYCODES_H
 
-#include <zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 // Define custom keycodes for French accents
 #define E_ACUTE (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_E) | (1 << 8))
